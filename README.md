@@ -20,7 +20,7 @@ zrn init -n <project name>
 ```
 创建完成后目录中将会出现以下结构：
 
-
+```
 ├── __tests__ // RN测试文件 
 ├── src // 项目业务代码存放文件
 ├── .buckconfig
@@ -34,7 +34,8 @@ zrn init -n <project name>
 ├── index.js
 ├── metro.config.jsmetro.config.js
 ├── package.json
-├── zrn.cli.config.js
+├── zrn.cli.config.j
+```
 
 ## 帮助
 运行-help命令来获得帮助
