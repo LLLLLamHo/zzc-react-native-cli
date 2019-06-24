@@ -1,6 +1,6 @@
 {
   "name": "HelloWorld",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -12,22 +12,8 @@
     "clone_zzc_video_android": "git clone -b master ssh://git@git-repositories.zuzuche.com:10023/zzc_mobile/zuzuche_android_library/zzc_video_android.git ./zzc_video_android",
     "clone_zzc_android_libs": "git clone -b master ssh://git@git-repositories.zuzuche.com:10023/zzc_mobile/zuzuche_android_library/zzc_android_libs.git ./zzc_android_libs"
   },
-  "dependencies": {
-    "react": "16.8.3",
-    "react-native": "0.59.5",
-    "axios": "0.18.0",
-    "react-native-svg": "9.3.7",
-    "react-native-svg-transformer": "0.12.1",
-    "@react-native-community/async-storage": "1.3.3"
-  },
-  "devDependencies": {
-    "@babel/core": "7.4.5",
-    "@babel/runtime": "7.4.5",
-    "babel-jest": "24.8.0",
-    "jest": "24.8.0",
-    "metro-react-native-babel-preset": "0.54.1",
-    "react-test-renderer": "16.8.3"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "jest": {
     "preset": "react-native"
   }
