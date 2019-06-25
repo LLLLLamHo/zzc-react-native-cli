@@ -56,3 +56,25 @@ zrn bundle -t <ios|android 默认all>
 zrn update
 ```
 update命令会将脚手架中最新的配置更新到项目的package中，然后需要您自行install即可。
+
+## 安卓apk构建及安卓
+```shell
+zrn build-apk      // 构建apk
+zrn install-apk     // 安卓apk到设备
+```
+
+## 配置文件
+配置文件会在执行`init`命令时自动创建，可后期自行根据需求修改。
+以下为默认配置：
+```JavaScript
+module.exports = {
+    iosBundlePath: './ios/RNProject/bundle', // ios bundle file path
+    iosBundleStaticPath: './ios/RNProject/bundle', // ios bundle static file path
+    androidBundlePath: './android/rnLib/src/main/assets', // android bundle file path
+    androidBundleStaticPath: './android/rnLib/src/main/res/', // android bundle static file path
+    iosBundleName: 'index.ios.jsbundle', // ios bundle file name
+    androidBundleName: 'index.android.bundle', // android bundle file name
+    backupPath: 'rn_bundle', // backup ios and android bundle files dir path
+    androidAPKPath: './android/app/build/outputs/apk/channelDefEnvDef/release/zuzuChe-release_channelDefEnvDef.apk' // build android apk output path
+}
+```
