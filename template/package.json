@@ -7,5 +7,6 @@
   "devDependencies": {},
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "devBundleConfig": {}
 }
